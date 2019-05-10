@@ -58,3 +58,16 @@
     font-weight: bold;
 
   }
+  .c {
+      font-weight: bolder;
+  }
+  
+  /* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button> */
+.c1 {
+    padding:0px;
+    margin:0px;
+    box-shadow: 0px 5px grey;
+}
