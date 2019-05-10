@@ -1,10 +1,11 @@
 .heroimage {
-    background-image:https://d36g7qg6pk2cm7.cloudfront.net/assets/slider_2_o-a6898e8c62c2e2566cfde6ca773ea0f3e23fd4ee6c03a30f5530160ed29e93e8.jpg;
+    background-image:url("https://d36g7qg6pk2cm7.cloudfront.net/assets/slider_2_o-a6898e8c62c2e2566cfde6ca773ea0f3e23fd4ee6c03a30f5530160ed29e93e8.jpg");
 
-    height: 40%;
+    height: 50vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
     position: relative;
 }
 
