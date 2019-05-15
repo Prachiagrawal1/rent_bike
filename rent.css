@@ -25,7 +25,7 @@
     font-family: Georgia;
     font-size: 75px;
     line-height: 60px;
-    padding-top: 4px;
+    padding-top: 0px ;
     padding-right: 8px;
     padding-left: 3px;
   }
@@ -34,6 +34,8 @@
       font-weight: bold;
       font-size: 15px;
       font-family: "Montserrat", sans-serif;
+      line-height: 1.5;
+      padding-top: 10px;
   }
   
   .spec2 {
@@ -43,14 +45,15 @@
   .nopad {
    padding: 0px;
    margin: 0px;
+   border-color: white;
   }
   .bg-col{
    background-color: rgb(243, 243, 243);
    padding: 2%;
-   padding: 2%; 
+   
   }
   .h1  {
-      font-size: 15px;
+      font-size: 1px;
       font-weight: bold;
   }
   .head {
@@ -67,7 +70,18 @@
   <span class="navbar-toggler-icon"></span>
 </button> */
 .c1 {
-    padding:0px;
-    margin:0px;
-    box-shadow: 0px 5px grey;
+    padding:0px ;
+    margin:0px ;
+    height: 10%;
+   
+}
+.row1{
+ 
+ height: 1%;
+}
+.adjust{
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
 }
