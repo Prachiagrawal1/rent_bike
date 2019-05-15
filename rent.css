@@ -3,39 +3,40 @@
 }
 .heroimage {
     background-image:url("https://d36g7qg6pk2cm7.cloudfront.net/assets/slider_2_o-a6898e8c62c2e2566cfde6ca773ea0f3e23fd4ee6c03a30f5530160ed29e93e8.jpg");
-
     height: 50vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
     position: relative;
 }
 
-.see{
+/* .see{
     display: table-cell;
 	vertical-align: middle;
 	width: 100%;
 	margin: auto auto;
 	text-align: center;
-}
+} */
 .firstcharacter {
     color: rgb(254, 204, 0);
     float: left;
-    font-family: Georgia;
-    font-size: 75px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 55px;
     line-height: 60px;
     padding-top: 0px ;
-    padding-right: 8px;
+    padding-right: 40px;
     padding-left: 3px;
+    
+    margin: -10px;
   }
 
   .spec {
       font-weight: bold;
-      font-size: 15px;
+      font-size: 17px;
       font-family: "Montserrat", sans-serif;
       line-height: 1.5;
       padding-top: 10px;
+      padding-bottom: 20px;
   }
   
   .spec2 {
@@ -59,6 +60,8 @@
   .head {
     font-size: 25px;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
 
   }
   .c {
@@ -70,18 +73,74 @@
   <span class="navbar-toggler-icon"></span>
 </button> */
 .c1 {
-    padding:0px ;
+    
     margin:0px ;
-    height: 10%;
-   
+    /* height: 10px; */
+    border-width: none;
+    float: left;
+    padding: 0%;
+    border: none;
+      
+   }
+.bck{
+    background-color:#E3E1E1;
+    padding-top: 10px;
+  
+    height: 120px;
+    box-sizing:border-box;
+    display:block;
+    margin:0px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
 .row1{
- 
- height: 1%;
+    padding:20px 150px 20px 150px;
 }
+
 .adjust{
 
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 20px;
+    padding:20px 150px 20px 150px;
+}
+.c{
+    margin-bottom: 5px;
+}
+.adjustfont{
+
+    font-size: 11px;
+    font-weight: 700;
+
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row4{
+
+    padding:0px 150px 0px 150px;
+    text-align: center;
+    border: none;
+    
+}
+.c4{
+    
+    font-size: 15px;
+    margin: 0%;
+    text-decoration: none;
+  
+}
+.company{
+    
+    font-weight: 700;
+}
+.textlight{
+    font-weight: 200;
+    font-size: 12px;
+    text-align: left;
+    
+}
+ul{
+
+    list-style-type: none;
 }
