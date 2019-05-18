@@ -10,18 +10,7 @@ body {
     position: relative;
 }
 
-.brand{
-    padding: 0%;
-    margin: 0%;
 
-}
-/* .see{
-    display: table-cell;
-	vertical-align: middle;
-	width: 100%;
-	margin: auto auto;
-	text-align: center;
-} */
 .bck{
     background-color:#e6e6e6;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
@@ -59,8 +48,12 @@ body {
   }
   .bg-col{
    background-color: rgb(243, 243, 243);
+
   
    
+  }
+  .shadow{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
   }
   .h1  {
       font-size: 1px;
@@ -137,13 +130,13 @@ body {
     display: table;
     clear: both;
 }
-.row4{
+/* .row4{
 
     padding:0px 150px 0px 150px;
     text-align: center;
     border: none;
     
-}
+} */
 .c4{
     
     font-size: 15px;
@@ -184,12 +177,35 @@ background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAL4AAACCCAM
 .number{
     background:rgba(0,0,0,0.5);
 }
-.navbar{
+/* .navbar{
     background:rgba(0,0,0,0.8);
-}
+} */
 .bgw{
  
     background-color: white;
     height: 240.81;
 
+}
+.lesstransparency{
+    background:rgba(0,0,0,0.8);
+}
+
+.overlap {
+position: relative;
+  }
+.overlap .imgtext{
+   
+    z-index: -1;
+
+
+}
+
+.overlap .textoverimage{
+vertical-align: baseline;
+    text-align: center;
+  width: 100%;
+margin: 7% auto auto auto;
+  position: absolute;
+  z-index: 0;
+  
 }
